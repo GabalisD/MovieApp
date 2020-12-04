@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+    background-size: cover;
+    margin: auto;
+}
+
+
+main {
+    margin: auto;
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    
+    
+}
+
+.movieDetail {
+    display: flex;
+    width: 100%; 
+    margin: 2rem
+    
+}
+
+.movieDetail img {
+    width: 250px;
+    height: 400px;
+}
+
+
+.movieName {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 1rem;
+}
+
+
+.movieName h1 {
+    width: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-top: 2rem;
+
+}
+
+.movieInfo h4 {
+    padding-left: 1rem;
+}
+
+.movieInfo h5 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+}

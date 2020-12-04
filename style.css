@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+
+}
+
+
+body {
+    font-family: 'Krona One', sans-serif;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie {
+    box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.75);
+    background-color: khaki;
+    border-style: solid;
+    border-color: khaki;
+    width: 250px;
+    margin: 2rem;
+}
+.movie:hover {
+    margin-left: 0 40px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.movie img {
+    max-width: 100%;
+}
+
+.movieInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    
+}
+
+.movieInfo h3 {
+ 
+    margin: 0;
+}
+
+span {
+    background-color: rgb(180, 162, 58);
+    padding: 0.3rem;
+    height: 20px;
+    box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.75);
+    
+}
+
+span.green {
+    color: green;
+}
+
+
+span.red {
+    color: red;
+}
+
+
+span.yellow {
+    color: yellow;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 4rem;
+    background-color:  rgb(230, 161, 104);
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+    border-bottom: 2px solid ;
+    border-top: 2px solid ;
+    float: none;
+    
+}
+header h1{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.search {
+    background-color:  khaki;
+    border-radius: 1rem;
+    border: 2px solid ;
+    font-family: inherit;
+    padding: 0.5rem;
+    
+}
